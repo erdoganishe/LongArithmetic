@@ -243,7 +243,7 @@ fn main() {
     let mut number_a_pow = BigNumber::new();
     number_a_pow.set_hex("1234567236767674");
     let mut number_b_pow = BigNumber::new();
-    number_b_pow.set_hex("3");
+    number_b_pow.set_hex("2");
 
     println!("{} ** {} ->", number_a_pow.get_hex(), number_b_pow.get_hex());
 
