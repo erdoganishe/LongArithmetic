@@ -1,6 +1,6 @@
-# BigMathRust
+# Long aripmetic
 
-This project - expansion of project that mas made for Cryptography for developers course.
+This project - expansion of project that mas made for Cryptography for developers course. (https://github.com/erdoganishe/BigMathRust)
 
 Functionality:
 
@@ -27,5 +27,7 @@ Functionality:
             for each byte we double the result (result = result+result), and if byte was 1 add first value to result.
             O(n) ~= k*n*ln(n), k is constant so we can ignore it for O(n), n is lenght of 2-radix string of second value;
 
-    
-    
+
+    To run program:
+
+       To run program you must have rust lang installed, go to folder: `cd .\BigMathRust` and execute `cargo run` в cmd.
