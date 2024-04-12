@@ -20,7 +20,8 @@ Functionality:
             Convert to usize and miltiply as usize, then convert to BigNumber: works for small values, using at Karatsuba algo
         
         Karatsuba multiplication:
-            Using 3 "small number" multiplications for each 2 big number multiplications instead of 4, as result it uses O(N^1,6) instead O(N^2) operations, but my algo is a shame and works too slow.
+            Using 3 "small number" multiplications for each 2 big number multiplications instead of 4,
+            as result it uses O(N^1,6) instead O(N^2) operations, but my algo is a shame and works too slow.
 
         Multiplication:
             Convert second value to string with radix 2.
